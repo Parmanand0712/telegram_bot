@@ -3,7 +3,7 @@ import telebot
 from telebot import types,util
 
 token = os.getenv('API_KEY')
-bot = telebot.TeleBot('1987145389:AAFxTTk_ikmI4JMo0FOdG7PrITjTLuUiUh8', parse_mode=None)
+bot = telebot.TeleBot('token', parse_mode=None)
 
 @bot.message_handler(commands=['Greet'])
 def greet(message):
